@@ -18,18 +18,18 @@ public class DummyData {
 	@Autowired
 	PostRepository postRepository;
 	
-	@PostConstruct
+	//@PostConstruct
 	public void gerarPosts() {
 		List<Post> posts = new ArrayList<>();
 		
 		Post p1 = new Post();
-		p1.setAutor("Wanderlei Borges Estevam");
+		p1.setAutor("Borges");
 		p1.setData(LocalDate.now());
 		p1.setTitulo("Viajando para Rio de Janeiro");
 		p1.setTexto("Será que vai dar praia???");
 	
 		Post p2 = new Post();
-		p2.setAutor("Wando Borges");
+		p2.setAutor("Wando");
 		p2.setData(LocalDate.now());
 		p2.setTitulo("Hoje é ano da minha vida :");
 		p2.setTexto("Comemorar mais um belo ano da minha vida.");
