@@ -23,16 +23,16 @@ public class DummyData {
 		List<Post> posts = new ArrayList<>();
 		
 		Post p1 = new Post();
-		p1.setAutor("Borges");
+		p1.setAutor("Estevam");
 		p1.setData(LocalDate.now());
-		p1.setTitulo("Viajando para Rio de Janeiro");
-		p1.setTexto("Será que vai dar praia???");
+		p1.setTitulo("Reiniciando o projeto do blog");
+		p1.setTexto("Baixado direto do meu github???");
 	
 		Post p2 = new Post();
-		p2.setAutor("Wando");
+		p2.setAutor("Michelli");
 		p2.setData(LocalDate.now());
-		p2.setTitulo("Hoje é ano da minha vida :");
-		p2.setTexto("Comemorar mais um belo ano da minha vida.");
+		p2.setTitulo("Ta demorando muito pra postar novas aulas");
+		p2.setTexto("Perdoável por conta da beleza");
 		
 		posts.add(p1);
 		posts.add(p2);

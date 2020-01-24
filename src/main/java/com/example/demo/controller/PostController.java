@@ -21,7 +21,7 @@ public class PostController {
 	public ModelAndView getPost() {
 		ModelAndView mv = new ModelAndView("postsblog");
 		List<Post> posts = postService.findAll();
-		mv.addObject("meus_posts", posts);
+		mv.addObject("attr_posts", posts);
 		return mv;
 	}
 	
